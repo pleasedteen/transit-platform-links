@@ -1,0 +1,25 @@
+{
+  "total_stop_times": 200010,
+  "hub_east_stop_calls": 10001,
+  "hub_west_stop_calls": 10001,
+  "query_time": "22:00:00",
+  "merged_arrival": "22:27:00",
+  "split_arrival": "22:45:00",
+  "confirm_pair": {
+    "a": {
+      "source": "OA",
+      "stop_id": "HUB_EAST"
+    },
+    "b": {
+      "source": "OB",
+      "stop_id": "HUB_WEST"
+    }
+  },
+  "query": {
+    "from_source": "OA",
+    "from_stop_id": "WEST_ORIGIN",
+    "to_source": "OB",
+    "to_stop_id": "EAST_DEST",
+    "earliest_departure": "22:00:00"
+  }
+}
